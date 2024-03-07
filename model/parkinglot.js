@@ -28,7 +28,7 @@ const parkingLotSchema = new mongoose.Schema({
       }));
     },
   },
-  id: { type: String, unique: true }, // Optional unique identifier
+  id: { type: String, unique: true }, 
 });
 
 module.exports = mongoose.model("ParkingLot", parkingLotSchema);
